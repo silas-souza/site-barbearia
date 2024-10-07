@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,section h2,
+section h3,
+form button{
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 56px;
+}
+body {
+    background-color: black;
+}
+.logo{
+    width: 156px;
+}
+
+.store-inside {
+    margin-right: 16px;
+}
+
+
+
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: red;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 32px;
+    
+    
+
+}
+
+header .container ,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+section {
+    padding: 24px 0;
+}
+
+section .container {
+    align-items: flex-start;
+    
+
+}
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+    
+}
+section{
+    color: white;
+}
+section p {
+    margin-bottom: 8px;
+}
+.store-front {
+    margin-right: 32px;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3 {
+    margin-bottom: 16px;
+}
+form button {
+    background-color: red;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #cf1cd6;
+}
+
+input:focus, textarea:focus {
+    outline-color: black;
+}
+footer {
+    background-color: red;
+    color: black;
+    padding: 16px 0; 
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    
+}
+
+.pictures li {
+    display:inline;
+    margin-bottom: 25px;
+}
+    
